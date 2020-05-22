@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:id="@+id/notecard1"
+    android:gravity="top"
+    android:minHeight="48dp"
+    android:orientation="horizontal"
+    android:clickable="true">
+        <CheckBox
+            android:id="@+id/checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:textColor="?attr/textcolor"
+            />
+
+        <TextView
+            android:id="@+id/checktext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="top"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:singleLine="false"
+            android:layout_toRightOf="@+id/checked"
+            android:gravity="left"
+            android:textColor="?attr/textcolor"
+            android:textStyle="bold"/>
+
+
+</RelativeLayout>
