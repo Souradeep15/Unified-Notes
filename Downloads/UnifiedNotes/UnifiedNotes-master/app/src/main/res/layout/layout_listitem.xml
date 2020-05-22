@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/notebookItem">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notebookTitle"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:text="Title 1"
+        android:layout_marginLeft="20dp"/>
+
+
+</RelativeLayout>
